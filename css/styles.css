@@ -9,6 +9,10 @@ h2{
     text-align: center;
     font-family: Garamond;
 }
+h3{
+    font-family: Garamond;
+    cursor: pointer;
+}
 .center
 {
     display: block;
@@ -23,4 +27,13 @@ h2{
 img{
     border-radius: 50%;
     border: 8px double purple;
+    cursor: grab;
+}
+.to-be
+{
+    cursor: wait;
+}
+.information
+{
+    cursor:default;
 }
